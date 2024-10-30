@@ -19,6 +19,8 @@ find_package(rclpy REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/AdcData.msg"
+  "msg/BikeSpeedData.msg"
+  "msg/PowerMeterData.msg"
   DEPENDENCIES std_msgs builtin_interfaces
 )
 

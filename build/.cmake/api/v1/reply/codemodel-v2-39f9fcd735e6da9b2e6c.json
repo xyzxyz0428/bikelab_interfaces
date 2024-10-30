@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-aa2964ba35cf074a95dd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "bikelab_interfaces__py",
+					"jsonFile" : "directory-bikelab_interfaces__py-Debug-12b8797407f07da42ec6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "build/bikelab_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "bikelab_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_bikelab_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_bikelab_interfaces_egg-Debug-582f353e796fc9be1bba.json",
+					"name" : "ament_cmake_python_build_bikelab_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_bikelab_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_bikelab_interfaces-Debug-e2b5a2c6d0f18f1f8a93.json",
+					"name" : "ament_cmake_python_copy_bikelab_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bikelab_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bikelab_interfaces-Debug-f4b7510930a982b0d91a.json",
+					"name" : "bikelab_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bikelab_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bikelab_interfaces__cpp-Debug-f6c682e26103e2835697.json",
+					"name" : "bikelab_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "bikelab_interfaces__py::@f11c6abfbb2ea04616f2",
+					"jsonFile" : "target-bikelab_interfaces__py-Debug-f9dad8f91310b01574fa.json",
+					"name" : "bikelab_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bikelab_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bikelab_interfaces__rosidl_generator_c-Debug-828f2ba25ae403fbc13e.json",
+					"name" : "bikelab_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bikelab_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bikelab_interfaces__rosidl_generator_py-Debug-921065fd8c47ac23a5d8.json",
+					"name" : "bikelab_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bikelab_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bikelab_interfaces__rosidl_typesupport_c-Debug-387f1140e90f601593ce.json",
+					"name" : "bikelab_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bikelab_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bikelab_interfaces__rosidl_typesupport_c__pyext-Debug-290a3eab3d98fb463010.json",
+					"name" : "bikelab_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bikelab_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bikelab_interfaces__rosidl_typesupport_cpp-Debug-ec241682683bd98201f3.json",
+					"name" : "bikelab_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bikelab_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bikelab_interfaces__rosidl_typesupport_fastrtps_c-Debug-6dc800656cb711e15126.json",
+					"name" : "bikelab_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bikelab_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bikelab_interfaces__rosidl_typesupport_fastrtps_c__pyext-Debug-722716012a112f7c1548.json",
+					"name" : "bikelab_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bikelab_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bikelab_interfaces__rosidl_typesupport_fastrtps_cpp-Debug-cc5d7b4799d513ec4a01.json",
+					"name" : "bikelab_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bikelab_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bikelab_interfaces__rosidl_typesupport_introspection_c-Debug-8c5fca7c6a54c79be35a.json",
+					"name" : "bikelab_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bikelab_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bikelab_interfaces__rosidl_typesupport_introspection_c__pyext-Debug-69a48ee592a145c4653b.json",
+					"name" : "bikelab_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bikelab_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bikelab_interfaces__rosidl_typesupport_introspection_cpp-Debug-29f4204d9328e4f581d1.json",
+					"name" : "bikelab_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bikelab_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bikelab_interfaces_uninstall-Debug-1be99c811d20c0bf62f9.json",
+					"name" : "bikelab_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-0d3a9d5e7cd7852d534c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bikelab/ros2_ws/src/bikelab_interfaces/build",
+		"source" : "/home/bikelab/ros2_ws/src/bikelab_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

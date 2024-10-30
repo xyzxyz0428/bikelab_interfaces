@@ -1,0 +1,13 @@
+Starting scanner for #0, type 0, press Ctrl-C to finish
+Found new device #64434 DeviceType.PowerMeter; device_type: 11, transmission_type: 21
+Device #64434 commond data update: CommonData(manufacturer_id=1, serial_no=4294967295, software_ver='', hardware_rev=68, model_no=3578, battery_number=255, last_battery_id=255, last_battery_data=BatteryData(battery_id=0, voltage_fractional=0.0, voltage_coarse=0, status=<BatteryStatus.Unknown: 0>, operating_time=0), timedate=None)
+
+PowerData(instantaneous_power=0, average_power=0, left_power=-1, right_power=-1, torque=0.0, angular_velocity=0.17751608532472227, cadence=24)
+Data attributes and methods: ['__annotations__', '__class__', '__dataclass_fields__', '__dataclass_params__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__match_args__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'angular_velocity', 'average_power', 'cadence', 'instantaneous_power', 'left_power', 'right_power', 'to_influx_json', 'torque']
+
+Found new device #18412 DeviceType.BikeSpeed; device_type: 123, transmission_type: 81
+Device #64434 commond data update: CommonData(manufacturer_id=1, serial_no=3464625074, software_ver='4.1', hardware_rev=68, model_no=3578, battery_number=255, last_battery_id=255, last_battery_data=BatteryData(battery_id=0, voltage_fractional=0.0, voltage_coarse=0, status=<BatteryStatus.Unknown: 0>, operating_time=0), timedate=None)
+
+Bike Speed Data received!
+Raw data content: BikeSpeedData(cumulative_operating_time=24416, bike_speed_event_time=[45.2119140625, 45.2119140625], cumulative_speed_revolution=[467, 467], manufacturer_id_lsb=1, serial_number=52757)
+Data attributes and methods: ['__annotations__', '__class__', '__dataclass_fields__', '__dataclass_params__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__match_args__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'bike_speed_event_time', 'calculate_distance', 'calculate_speed', 'cumulative_operating_time', 'cumulative_speed_revolution', 'manufacturer_id_lsb', 'serial_number', 'to_influx_json']

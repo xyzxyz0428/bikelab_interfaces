@@ -1,0 +1,6 @@
+{
+  "package_name": "bikelab_interfaces",
+  "non_idl_tuples": [
+    "/home/bikelab/ros2_ws/src/bikelab_interfaces:msg/AdcData.msg"
+  ]
+}

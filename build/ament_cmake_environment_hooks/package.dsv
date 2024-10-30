@@ -1,0 +1,4 @@
+source;share/bikelab_interfaces/local_setup.bash
+source;share/bikelab_interfaces/local_setup.dsv
+source;share/bikelab_interfaces/local_setup.sh
+source;share/bikelab_interfaces/local_setup.zsh

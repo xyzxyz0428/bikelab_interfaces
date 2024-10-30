@@ -24,9 +24,13 @@ class PotentiometerDriver(Node):
             msg = AdcData()
             msg.header = Header()
             msg.header.stamp = self.get_clock().now().to_msg()  # Set the timestamp
-            msg.data = float(-90+180/657*data_value)
-            self.get_logger().info("Data published: {}".format(msg.data))
-
+            tmp = float(-90+180/657*data_value)
+            if tmp>90:
+                msg.data=90
+            elif tmp<-90:
+                msg.data=90
+            else:
+                msg.data=tmp
 
             self.publisher_.publish(msg)  # Publish the message
         except Exception as e:
